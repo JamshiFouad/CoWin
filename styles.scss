@@ -1,6 +1,61 @@
-$header-bgcolor:#017e7e;
+$header-bgcolor: #045d5d;
+$nav-bgcolor:#017e7e;
+$whiteColor:white;
+$orangeColor:#fd5428;
+$stepsColor:#007c7c;
 
-
-.header-bgcolor{
-background-color: $header-bgcolor;
+*{  
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto",sans-serif;
+    cursor: pointer;
+    letter-spacing: normal;
+    
 }
+
+.main{
+    a{ 
+        text-decoration: none;
+        color: $whiteColor;       
+    }
+}
+header{
+    z-index: 10;
+}
+.main-header{
+        height:50px;
+    background-color: $header-bgcolor;
+    
+    img{
+        height: 6vh;
+    }
+    .btn-1{
+        font-size: small;
+    }
+}
+.logo-title{
+    font-size: 12px;
+    font-weight: 300;
+}
+.language{
+    height: 250px;
+    line-height:30px;
+}
+// header-main
+
+.navigation{
+    height:70px;
+    background-color: $nav-bgcolor;
+    font-size: 12px;
+    font-weight: bold;
+    a{
+        letter-spacing: 2px;
+    }
+    button{
+        font-size: small;
+        font-weight: bold;   
+        }
+    
+}
+// header-nav

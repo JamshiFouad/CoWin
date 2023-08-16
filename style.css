@@ -1,5 +1,54 @@
-.header-bgcolor {
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  cursor: pointer;
+  letter-spacing: normal;
+}
+
+.main a {
+  text-decoration: none;
+  color: white;
+}
+
+header {
+  z-index: 10;
+}
+
+.main-header {
+  height: 50px;
+  background-color: #045d5d;
+}
+.main-header img {
+  height: 6vh;
+}
+.main-header .btn-1 {
+  font-size: small;
+}
+
+.logo-title {
+  font-size: 12px;
+  font-weight: 300;
+}
+
+.language {
+  height: 250px;
+  line-height: 30px;
+}
+
+.navigation {
+  height: 70px;
   background-color: #017e7e;
+  font-size: 12px;
+  font-weight: bold;
+}
+.navigation a {
+  letter-spacing: 2px;
+}
+.navigation button {
+  font-size: small;
+  font-weight: bold;
 }
 
 /*# sourceMappingURL=style.css.map */
