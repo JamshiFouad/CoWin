@@ -59,3 +59,68 @@ header{
     
 }
 // header-nav
+.main-container-1{ 
+    padding: 30px 0 30px 35px;  
+    background-image: url(https://www.cowin.gov.in/precaution_banner_bg_web.c656a76b28237d8fb924.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    span{
+    font-size: 33px;
+    font-weight: 800;
+    // margin-bottom: 20px;
+    // margin: 20px;
+    letter-spacing:-1px;
+    line-height: 53px;
+    // color: #000;
+    font-family: "Roboto", Condensed,sans-serif;
+    }
+    .midContent{    
+        font-size: 45px;
+        font-weight: 900;
+        color:$orangeColor;
+        border:3px solid $orangeColor;
+    }
+    img{
+        width:78%;
+    }
+    .duplicate-button{
+        width:150px;
+        height:60px;
+        top:222px;
+        color:$whiteColor;
+        background-image: linear-gradient(90deg,#017e7e 80%,#0c6161);
+        z-index: 2;
+        span{
+            font-size: 12px;
+            line-height: normal;
+            font-weight: 100;
+            letter-spacing: 1px;
+        }
+        img{
+            width:13px;
+        }
+    }
+}
+.vaccination-status{
+   
+    background:linear-gradient(120deg,#007c7c 50%,#04c4c4 0);
+    .total-doses{
+         text-align: right; 
+         color:$whiteColor;
+         font-weight: 600;
+    }
+    h4{
+        line-height: 0%;
+        font-weight: 700;
+    }
+    .today-doses{
+        font-weight: 600;
+    }
+    button{
+        padding:7px 40px;
+        font-size:13px;
+        font-weight: 600;
+    }
+}
+///////////////
+

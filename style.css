@@ -51,4 +51,65 @@ header {
   font-weight: bold;
 }
 
+.main-container-1 {
+  padding: 30px 0 30px 35px;
+  background-image: url(https://www.cowin.gov.in/precaution_banner_bg_web.c656a76b28237d8fb924.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.main-container-1 span {
+  font-size: 33px;
+  font-weight: 800;
+  letter-spacing: -1px;
+  line-height: 53px;
+  font-family: "Roboto", Condensed, sans-serif;
+}
+.main-container-1 .midContent {
+  font-size: 45px;
+  font-weight: 900;
+  color: #fd5428;
+  border: 3px solid #fd5428;
+}
+.main-container-1 img {
+  width: 78%;
+}
+.main-container-1 .duplicate-button {
+  width: 150px;
+  height: 60px;
+  top: 222px;
+  color: white;
+  background-image: linear-gradient(90deg, #017e7e 80%, #0c6161);
+  z-index: 2;
+}
+.main-container-1 .duplicate-button span {
+  font-size: 12px;
+  line-height: normal;
+  font-weight: 100;
+  letter-spacing: 1px;
+}
+.main-container-1 .duplicate-button img {
+  width: 13px;
+}
+
+.vaccination-status {
+  background: linear-gradient(120deg, #007c7c 50%, #04c4c4 0);
+}
+.vaccination-status .total-doses {
+  text-align: right;
+  color: white;
+  font-weight: 600;
+}
+.vaccination-status h4 {
+  line-height: 0%;
+  font-weight: 700;
+}
+.vaccination-status .today-doses {
+  font-weight: 600;
+}
+.vaccination-status button {
+  padding: 7px 40px;
+  font-size: 13px;
+  font-weight: 600;
+}
+
 /*# sourceMappingURL=style.css.map */
