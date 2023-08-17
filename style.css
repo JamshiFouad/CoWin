@@ -11,6 +11,10 @@
   text-decoration: none;
   color: white;
 }
+.main h2 {
+  color: #007c7c;
+  font-weight: 900;
+}
 
 header {
   z-index: 10;
@@ -110,6 +114,82 @@ header {
   padding: 7px 40px;
   font-size: 13px;
   font-weight: 600;
+}
+
+.vaccination-steps {
+  background-color: #edffff;
+}
+.vaccination-steps .steps {
+  left: 0;
+  right: 0;
+  top: 130px;
+}
+.vaccination-steps .steps .step-1 {
+  margin-left: 15em;
+}
+.vaccination-steps .steps .step-3 {
+  margin-right: 15em;
+}
+.vaccination-steps .steps-span {
+  color: #007c7c;
+  background-color: white;
+  font-size: small;
+  font-weight: 600;
+  border: 1px solid #007c7c;
+}
+.vaccination-steps .step-content {
+  padding: 30px 50px;
+}
+.vaccination-steps .step-container {
+  width: 800px;
+  margin: auto;
+}
+.vaccination-steps .step-card {
+  width: 220px;
+  background-color: white;
+  text-align: center;
+  padding-top: 60px;
+  border-radius: 10px;
+  box-shadow: 0 10px 30px #b5d8e2;
+  margin-right: 60px;
+}
+.vaccination-steps img {
+  height: 100px;
+}
+.vaccination-steps .step-card-content1 {
+  height: 140px;
+  background-color: #007c7c;
+  padding: 0 20px;
+  font-size: 15px;
+  line-height: 28px;
+  display: flex;
+  align-items: center;
+}
+.vaccination-steps .step-card-content2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+  line-height: 23px;
+}
+
+.icon-right {
+  left: 0;
+  right: 0;
+  top: 350px;
+  color: #007c7c;
+  font-size: 30px;
+  text-align: center;
+}
+
+.vaccCenter-search .text-color-1 {
+  color: #02aeae;
+  letter-spacing: 1px;
+}
+.vaccCenter-search label {
+  font-size: 22px;
+  font-weight: 700;
+  color: #02aeae;
 }
 
 /*# sourceMappingURL=style.css.map */

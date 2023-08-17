@@ -3,6 +3,8 @@ $nav-bgcolor:#017e7e;
 $whiteColor:white;
 $orangeColor:#fd5428;
 $stepsColor:#007c7c;
+$text-color1:#02aeae;
+
 
 *{  
     margin: 0;
@@ -18,6 +20,11 @@ $stepsColor:#007c7c;
     a{ 
         text-decoration: none;
         color: $whiteColor;       
+    }
+    h2{
+        color:$stepsColor;
+        font-weight: 900;
+
     }
 }
 header{
@@ -124,3 +131,85 @@ header{
 }
 ///////////////
 
+.vaccination-steps{
+    background-color: #edffff;
+   
+    .steps{
+        left: 0;
+        right:0;
+        top: 130px;
+
+        .step-1{
+            margin-left:15em;
+        }
+        .step-3{
+            margin-right:15em;
+        }
+
+    }
+    .steps-span{
+        color:$stepsColor;
+        background-color: $whiteColor;
+        font-size: small;
+        font-weight: 600;
+        border:1px solid $stepsColor;
+    }
+    .step-content{
+        padding:30px 50px;
+        
+    }
+    .step-container{
+        width:800px;
+        margin: auto;
+
+    }
+    .step-card{
+        width:220px;
+        background-color: $whiteColor;
+        text-align:center; 
+        padding-top: 60px;
+        border-radius: 10px;  
+        box-shadow: 0 10px 30px #b5d8e2; 
+        margin-right: 60px;            
+        }
+    img{
+        height: 100px;
+    }
+    .step-card-content1{
+        height: 140px;
+      background-color: $stepsColor;
+      padding: 0 20px;
+      font-size:15px;
+      line-height: 28px;
+      display: flex;
+      align-items: center;
+    }
+    .step-card-content2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 12px;
+        line-height: 23px;
+    }
+}
+.icon-right{
+    left:0;
+    right:0;
+    top:350px;
+    color: $stepsColor;
+    font-size: 30px;
+    text-align: center;
+    // padding: 0 50px;
+}///////////////////////////
+
+.vaccCenter-search{
+    .text-color-1{
+           color:$text-color1;
+           letter-spacing: 1px;
+    }
+    label{
+        font-size: 22px;
+        font-weight: 700;
+        color: #02aeae;
+    }
+}
