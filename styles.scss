@@ -4,7 +4,8 @@ $whiteColor:white;
 $orangeColor:#fd5428;
 $stepsColor:#007c7c;
 $text-color1:#02aeae;
-
+$bgColor:#edffff;
+   
 
 *{  
     margin: 0;
@@ -17,9 +18,8 @@ $text-color1:#02aeae;
 }
 
 .main{
-    a{ 
+      a{ 
         text-decoration: none;
-        color: $whiteColor;       
     }
     h2{
         color:$stepsColor;
@@ -29,6 +29,9 @@ $text-color1:#02aeae;
 }
 header{
     z-index: 10;
+    a{
+        color: $whiteColor;
+    }
 }
 .main-header{
         height:50px;
@@ -130,10 +133,11 @@ header{
     }
 }
 ///////////////
+.bgColor{
+    background-color: $bgColor;
+}
 
 .vaccination-steps{
-    background-color: #edffff;
-   
     .steps{
         left: 0;
         right:0;
@@ -178,6 +182,7 @@ header{
     .step-card-content1{
         height: 140px;
       background-color: $stepsColor;
+      color: $whiteColor;
       padding: 0 20px;
       font-size:15px;
       line-height: 28px;
@@ -212,4 +217,55 @@ header{
         font-weight: 700;
         color: #02aeae;
     }
+    li{
+        a{
+            color:black;
+        }
+    }
+   .btn-2{
+    width: 22rem;
+    height: 3rem;
+   }
+   .btn-3{
+    padding:10px 30px;
+    background-color: #007c7c;
+   color:$whiteColor;   
 }
+}
+//////////////////////
+/// 
+.vaccinationDetails{
+    p{
+    font-size: 16px;
+    color: #0e1229;
+    font-weight: 400;
+    line-height: 1.5;
+    opacity: .7;
+    letter-spacing: .5px;
+    }
+    button{
+        color:white;
+        font-size: medium;
+        background-color: #007c7c;
+        padding:10px 50px;
+    }
+}
+//////////////////
+.abha{
+    p{
+        font-size: 16px;
+        color: #0e1229;
+        font-weight: 400;
+        line-height: 1.5;
+        opacity: .7;
+        letter-spacing: .5px;
+        text-align:center;   
+    }
+    button{
+        color:white;
+        font-size: medium;
+        background-color: #007c7c;
+        padding:10px 50px;
+    }
+}
+

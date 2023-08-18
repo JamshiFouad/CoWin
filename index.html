@@ -45,18 +45,21 @@
                                     ENGLISH
                                 </button>
                                 <div class="dropdown-menu overflow-y-scroll language">
-                                    <a class="dropdown-item" href="#">English</a>
-                                    <a class="dropdown-item" href="#">हिन्दी(Hindi)</a>
-                                    <a class="dropdown-item" href="#">मराठी(Marathi)</a>
-                                    <a class="dropdown-item" href="#">മലയാളം(Malayalam)</a>
-                                    <a class="dropdown-item" href="#">ਪੰਜਾਬੀ (Punjabi)</a>
-                                    <a class="dropdown-item" href="#">తెలుగు (Telugu)</a>
-                                    <a class="dropdown-item" href="#">ગુજરાતી (Gujarati)</a>
-                                    <a class="dropdown-item" href="#">অসমীয়া (Assamese)</a>
-                                    <a class="dropdown-item" href="#">বাংলা (Bengali)</a>
-                                    <a class="dropdown-item" href="#">ಕನ್ನಡ (Kannada)</a>
-                                    <a class="dropdown-item" href="#">ଓଡିଆ (Odia)</a>
-                                    <a class="dropdown-item" href="#">தமிழ் (Tamil)</a>
+                                    <ul>
+                                    <li><a class="dropdown-item" href="#">English</a></li>
+                                    <li><a class="dropdown-item" href="#">हिन्दी(Hindi)</a></li>
+                                    <li><a class="dropdown-item" href="#">हिन्दी(Hindi)</a></li>
+                                    <li><a class="dropdown-item" href="#">मराठी(Marathi)</a></li>
+                                    <li> <a class="dropdown-item" href="#">മലയാളം(Malayalam)</a></li>
+                                    <li><a class="dropdown-item" href="#">ਪੰਜਾਬੀ (Punjabi)</a></li>
+                                    <li> <a class="dropdown-item" href="#">తెలుగు (Telugu)</a></li>
+                                    <li> <a class="dropdown-item" href="#">ગુજરાતી (Gujarati)</a></li>
+                                    <li><a class="dropdown-item" href="#">অসমীয়া (Assamese)</a></li>
+                                    <li><a class="dropdown-item" href="#">বাংলা (Bengali)</a></li>
+                                    <li><a class="dropdown-item" href="#">ಕನ್ನಡ (Kannada)</a></li>
+                                    <li><a class="dropdown-item" href="#">ଓଡିଆ (Odia)</a></li>
+                                    <li> <a class="dropdown-item" href="#">தமிழ் (Tamil)</a></li>
+                                </ul>
                                 </div>
                             </div>
 
@@ -178,8 +181,8 @@
             </div>
         </div>
         <!--  -->
-        <div class="vaccination-steps position-relative">
-            <div class="container">
+        <div class="vaccination-steps position-relative bgColor">
+            <div class="container-fluid">
                 <div class="row ">
                     <div class="col-12 d-flex justify-content-center">
                         <div class="mt-5 mb-3">
@@ -302,58 +305,252 @@
 
         <!-- FIX  right icon problems -->
         <div class="vaccCenter-search">
-            <div class="container">
+            <div class="container m-5">
                 <div class="row text-center">
-                    <div class="col-12">
+                    <div class="col-12 mb-2">
                         <h2>Search Your Nearest Vaccination Center</h2>
                     </div>
-                    <div class="col-12">
-                        <p>Get a preview list of the nearest centers and check availability of vaccination slots</p>
+                    <div class="col-12 pt-1">
+                        <p class="text-secondary">Get a preview list of the nearest centers and check availability of vaccination slots</p>
                     </div>
                     <div class="col-12">
-                        <a href="https://selfregistration.cowin.gov.in/" target="_blank" class="text-color-1 fw-bold">Login to book your slot</a>
+                        <a href="https://selfregistration.cowin.gov.in/" target="_blank"
+                            class="text-color-1 fw-bold">Login to book your slot</a>
                     </div>
-                    <div class="col-12 border-bottom border-secondary border-3">
+                    <div class="col-12 border-bottom border-secondary border-3 mx-auto mt-4 pb-1 w-75">
                         <label>By district</label>
-                        <label class="text-secondary">By PIN</label>
+                        <label class="text-secondary mx-5">By PIN</label>
                         <label class="text-secondary">On the Map</label>
                     </div>
-                   
+                    <div class="col-12 d-flex w-75 mx-auto justify-content-between px-0 pb-5">
+                     <div class="col dropdown mt-4 me-3">
+                                <button class="btn dropdown-toggle border border-1 text-secondary  dropdown-toggle-split rounded-5 btn-2" data-bs-toggle="dropdown">Select Your State</button>
+                                <div class="dropdown-menu overflow-y-scroll language">
+                                    <ul>
+                                    <li><a class="dropdown-item" href="#"> Andaman And Nicobar Islands </a></li>
+                                    <li><a class="dropdown-item" href="#"> Andhra Pradesh </a></li>
+                                    <li><a class="dropdown-item" href="#"> Arunachal Pradesh </a></li>
+                                    <li><a class="dropdown-item" href="#"> Assam </a></li>
+                                    <li> <a class="dropdown-item" href="#"> Bihar </a></li>
+                                    <li><a class="dropdown-item" href="#"> Chandigarh </a></li>
+                                    <li> <a class="dropdown-item" href="#"> Chhattisgarh </a></li>
+                                    <li> <a class="dropdown-item" href="#"> Dadra And Nagar Haveli </a></li>
+                                    <li><a class="dropdown-item" href="#"> Daman And Diu </a></li>
+                                    <li><a class="dropdown-item" href="#"> Delhi </a></li>
+                                    <li><a class="dropdown-item" href="#"> Goa </a></li>
+                                    <li><a class="dropdown-item" href="#"> Gujarat </a></li>
+                                    <li> <a class="dropdown-item" href="#"> Haryana </a></li>
+                                    <li><a href="" class="dropdown"> Himachal Pradesh </a></li>
+                                    <li><a href="" class="dropdown"> Jammu And Kashmir </a></li>
+                                    <li><a href="" class="dropdown"> Jharkhand </a></li>
+                                    <li><a href="" class="dropdown"> Karnataka </a></li>
+                                    <li><a href="" class="dropdown"> Kerala </a></li>
+                                    <li><a href="" class="dropdown"> Ladakh </a></li>
+                                    <li><a href="" class="dropdown"> Lakshadweep </a></li>
+                                    <li><a href="" class="dropdown"> Madhya Pradesh </a></li>
+                                    <li><a href="" class="dropdown"> Maharashtra </a></li>
+                                    <li><a href="" class="dropdown"> Manipur </a></li>
+                                    <li><a href="" class="dropdown"> Meghalaya </a></li>
+                                    <li><a href="" class="dropdown"> Mizoram </a></li>
+                                    <li><a href="" class="dropdown"> Nagaland </a></li>
+                                    <li><a href="" class="dropdown"> Odisha </a></li>
+                                    <li><a href="" class="dropdown"> Puducherry </a></li>
+                                    <li><a href="" class="dropdown"> Punjab </a></li>
+                                    <li><a href="" class="dropdown"> Rajasthan </a></li>
+                                    <li><a href="" class="dropdown">Sikkim</a></li>
+                                    <li><a href="" class="dropdown"> Tamil Nadu </a></li>
+                                    <li><a href="" class="dropdown"> Telangana </a></li>
+                                    <li><a href="" class="dropdown"> Tripura </a></li>
+                                    <li><a href="" class="dropdown"> Uttar Pradesh </a></li>
+                                    <li><a href="" class="dropdown"> Uttarakhand </a></li>
+                                    <li><a href="" class="dropdown"> West Bengal </a></li>
+                                </ul>
+                                </div>
+                            </div>
+                            
+                                <div class="col dropdown mt-4 me-3">
+                                    <button class="btn dropdown-toggle border border-1 text-secondary  rounded-5 btn-2" data-bs-toggle="dropdown">Select District</button>
+                                    <div class="dropdown-menu overflow-y-scroll language">
+                                        <ul>
+                                        <li><a class="dropdown-item" href="#">District-1</a></li>
+                                        <li><a class="dropdown-item" href="#"> District-2 </a></li>
+                                        <li><a class="dropdown-item" href="#"> District-3 </a></li>
+                                        <li><a class="dropdown-item" href="#"> District-4 </a></li>
+                                        <li> <a class="dropdown-item" href="#"> District-5 </a></li>
+                                        <li><a class="dropdown-item" href="#"> District-6 </a></li>
+                                        <li> <a class="dropdown-item" href="#"> District-7 </a></li>
+                                        </ul>
+                                        </div>
+
+                            </div>
+                            <div class="col mt-4">
+                                <button class="btn rounded-5 btn-3">Search</button>
+                            </div>
+                        </div>
+
+                </div>
+ </div>
+ </div>
+<!-- FIX buttons  -->
+
+          <div class="vaccinationDetails">
+            <div class="container-fluid">
+
+                <div class="row d-flex align-items-center my-5">
+                    <div class="col-6 pe-5 d-flex  flex-column align-items-start">
+                    <div>
+                        <h2 class="mb-4">Free COVID Precaution Dose</h2>
+                    </div>
+                    <div>
+                        <p class="mb-4">Now Precaution dose for 18-59 age group free at Government Vaccination Center.</p>
+                    </div>
+                    <div>
+                        <button class="btn rounded-5">Book Your Slot</button>
+                    </div>
+                    </div>
+                    <div class="col-6 d-flex justify-content-center ps-5">
+                        <div>
+                            <img src="https://www.cowin.gov.in/assets/images/free_covid_precaution_dose.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+
+
+<!--  -->
+
+                <div class="row bgColor d-flex align-items-center py-5">
+                    <div class="col-6">
+                        <div>
+                            <img src="	https://www.cowin.gov.in/assets/images/reports-aefi.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div>
+                            <h2  class="mb-4">Report Side Effect</h2>
+                        </div>
+                        <div>
+                            <p  class="mb-4">If you have experienced any side effect after COVID-19 vaccination, it can be reported on Co-WIN using your registered mobile number.</p>
+                        </div>
+                        <div>
+                            <button class="btn rounded-5">Report Now</button>
+                        </div>
+                    </div>
+                </div>
+
+<!--  -->
+                <div class="row d-flex align-items-center my-5">
+                    <div class="col-7 pe-5 d-flex  flex-column align-items-start">
+                    <div>
+                        <h2>Children Vaccination</h2>
+                    </div>
+                    <div>
+                        <ul>
+                           <li><p>Covovax vaccine is now available for Children of the age group 12+ yrs in Private Vaccination Center. The time span between first and second dose of Covovax is 21 days. Children can be administered with the second dose of Covovax within a month.</p></li>
+                            <li><p>Children of the age group 12-14 yrs are now eligible for the Corbevax vaccine in Government Vaccination Center and in Private Vaccination Center 12+ yrs. The period between a first and second dose of Corbevax is 28 days.</p></li>
+                            <li><p>Covaxin is available for Children of the age group of 15+ yrs in both Government and Private Vaccination Center. Children must be completed 4 to 6 weeks after administration of the first dose of Covaxin to take the second dose of Covaxin. Both online and walk-in are available.</p></li>
+                        </ul>
+                    </div>
+        
+                    <div>
+                        <button class="btn rounded-5">Book Your Slot</button>
+                    </div>
+                    </div>
+                    <div class="col-5  d-flex justify-content-center">
+                        <div>
+                            <img style="width:500px;" src="https://www.cowin.gov.in/assets/images/Children_Vaccination.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+
+
+<!--  -->
+
+
+                <div class="row  bgColor d-flex align-items-center py-5">
+                    <div class="col-6 ps-4">
+                        <div><img style="width:430px;" src="https://www.cowin.gov.in/assets/images/Date_Correction.svg" alt=""></div>
+                    </div>
+                    <div class="col-6">
+                        <div><h2  class="mb-4">Vaccination Date Correction</h2></div>
+                        <div><p  class="mb-4">If the date printed on your vaccination certificate differs from the actual date of vaccine administration, you may raise a request for correction of the same by submitting a valid proof of correct vaccination date.</p></div>
+                        <div><button class="btn rounded-5">Update Date</button></div>
+                    </div>
                 </div>
                 
+                <!--  -->
+                <div class="row  d-flex align-items-center my-5">
+                    <div class="col-7 pe-5 d-flex  flex-column align-items-start">
+                    <div>
+                        <h2>Precaution Dose</h2>
+                    </div>
+                    <div>
+                        <ul>
+                           <li><p>All fully vaccinated adult citizens (18+ and have taken 2 doses) are eligible for precaution dose from 10/04/2022. Eligible citizens can avail precaution dose at any Government or Private Vaccination Center. Citizens should carry their Final Certificate of vaccination (with details of both earlier doses). Citizens should use the same mobile number and ID card used for earlier doses.</p></li>
+                            <li><p>HCWs, FLWs and Citizens aged 60 year or more, shall continue to receive precaution dose vaccination at any CVC, including free of charge vaccination at Government Vaccination Center.</p></li>
+                            <li><p>For international travel, precaution dose can be administered to such beneficiary less than 9 months to at a minimum interval of 3 months (90 days) from the date of administration of the second dose as recorded on Co-WlN as per requirement of the destination country. All Vaccination Center in the State where precaution dose is being administered are eligible to administer precaution dose.</p></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <button class="btn rounded-5">Book Your Slot</button>
+                    </div>
+                    </div>
+                    <div class="col-5 d-flex justify-content-center">
+                        <div>
+                            <img style="width:500px;" src="https://www.cowin.gov.in/assets/images/Precaution_dose.svg" alt="">
+                        </div>
+                    </div>
+                    </div>
+                    <!--  -->
+                    <div class="row   bgColor d-flex align-items-center py-5">
+                        <div class="col-6 d-flex justify-content-center">
+                            <div>
+                                <img style="width:350px;" src="https://www.cowin.gov.in/assets/images/share_illustration.svg" alt="">
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div><h2 class="mb-4">Share Your Vaccination Status</h2></div>
+                            <div><p class="mb-4">Be a Fighter! If you are fully or partially vaccinated, you can now share your vaccination status in your social circle. Let's encourage our friends and followers in joining India's battle against COVID-19.</p></div>
+                            <div><button class="btn rounded-5">Share Your Status</button></div>
+                        </div>
+                        </div>
+                    </div>
+                    </div>
+                   
+                    
+        <!--  -->
 
-
-
-
-                <div class="row"></div>
-                <div class="row"></div>
-                <div class="row"></div>
-                <div class="row"></div>
+        <div class="abha">
+            <div class="container-fluid">
+                <div class="row my-5">
+                    <div class="col-12 d-flex justify-content-center">
+                        <div><h2>
+                            ABHA (Health ID) and its Benefits
+                        </h2></div>
+                    </div>
+                    <div class="col-12 mt-2">
+                        <div><p>
+                            &emsp;&emsp;ABHA (earlier known as Health ID) is an acronym for Ayushman Bharat Health Account. Using ABHA (Health ID) is the first step towards creating safer and efficient digital health records for you and your family. It enables your interaction with participating healthcare providers, and allows you to receive your digital lab reports, prescriptions and diagnosis seamlessly from verified healthcare professionals and health service providers.
+                        </p></div>
+                    </div>
+                    <div class="col-12 d-flex ps-5 my-4">
+                        <div class="col-6 d-flex justify-content-end pe-3">
+                             <img style="width:500px;" src="https://www.cowin.gov.in/assets/images/abha-preview.jpg" alt="">
+                        </div>
+                        <div class="col-6 d-flex justify-content-start ps-3">
+                        <img style="width:500px;" src="https://www.cowin.gov.in/assets/images/abha-previewimg.jpg" alt="">
+                        </div>
+                        </div>
+                    <div class="col-12 d-flex justify-content-center">
+                        <div>
+                            <button class="btn rounded-5">Click Here to Know More</button>
+                        </div>
+                    </div>
+                </div>
             </div>
+            </div>
+            
 
-        </div>
-      
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+     
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
